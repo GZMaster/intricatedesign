@@ -15,6 +15,30 @@
       padding: 1.5rem;
       gap: 10px 0px;
     }
+    .projectPage_content_wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      .projectPage_content {
+        @include landscape {
+          width: 45%;
+        }
+        @include mobile {
+          width: 100%;
+        }
+
+        img {
+          @include landscape {
+            width: 100%;
+          }
+          @include mobile {
+            width: inherit;
+          }
+        }
+      }
+    }
     .title_wrapper {
       display: flex;
       flex-direction: column;
@@ -58,7 +82,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        width: 50%;
+        width: 90%;
         color: #666666;
         @include tablet {
           width: 100%;

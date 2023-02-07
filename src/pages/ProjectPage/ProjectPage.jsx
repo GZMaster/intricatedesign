@@ -49,11 +49,19 @@ const ProjectPage = () => {
               clients:
             </div>
           </div>
+<<<<<<< Updated upstream
           <div className="projectpage_content_wrapper">
             {Images.map((i) => {
               return (
                 <div
                   className="projectpage_content"
+=======
+          <div className="projectPage_content_wrapper">
+            {Images.map((i) => {
+              return (
+                <div
+                  className="projectPage_content"
+>>>>>>> Stashed changes
                   key={i.id}
                   data-aos="fade-up"
                   data-aos-delay="300"

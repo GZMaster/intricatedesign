@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2f4f278.css",
-    "main.js": "/static/js/main.17eeffca.js",
+    "main.css": "/static/css/main.e83c652b.css",
+    "main.js": "/static/js/main.90232ad2.js",
     "static/media/BG Color Gradient(1).png": "/static/media/BG Color Gradient(1).c4575a11db3581000b1f.png",
     "static/media/servicescards09.png": "/static/media/servicescards09.6b9f5405868b62c15ec5.png",
     "static/media/About Us Image 1.png": "/static/media/About Us Image 1.7cc775a228f66270bb4d.png",
@@ -56,11 +56,11 @@
     "index.html": "/index.html",
     "static/media/arrow-right.svg": "/static/media/arrow-right.30916ea1c884b1fc584f63c5c6d7b082.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.401eff349c531cefd8df57162b0ae766.svg",
-    "main.e2f4f278.css.map": "/static/css/main.e2f4f278.css.map",
-    "main.17eeffca.js.map": "/static/js/main.17eeffca.js.map"
+    "main.e83c652b.css.map": "/static/css/main.e83c652b.css.map",
+    "main.90232ad2.js.map": "/static/js/main.90232ad2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2f4f278.css",
-    "static/js/main.17eeffca.js"
+    "static/css/main.e83c652b.css",
+    "static/js/main.90232ad2.js"
   ]
 }

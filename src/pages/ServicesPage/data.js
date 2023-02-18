@@ -1,8 +1,8 @@
 import S1 from "../../assets/images/servicescards12.png";
 import S2 from "../../assets/images/servicescards11.png";
 import S3 from "../../assets/images/servicescards10.png";
-import F1 from "../../assets/images/servicescards03.png";
-import F2 from "../../assets/images/servicescards01.png";
+import F1 from "../../assets/images/servicescards01.png";
+import F2 from "../../assets/images/servicescards03.png";
 import F3 from "../../assets/images/servicescards02.png";
 import B1 from "../../assets/images/servicescards06.png";
 import B2 from "../../assets/images/servicescards05.png";
@@ -33,7 +33,7 @@ export const Content = [
       {
         id: 3,
         img: F3,
-        text: "Finishing selection/ Hotel designs & interior placement",
+        text: "Hotel designs & interior placement",
       },
     ],
   },

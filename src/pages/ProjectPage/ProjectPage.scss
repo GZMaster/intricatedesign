@@ -1,0 +1,91 @@
+@import "../../styles/Colors.scss";
+@import "../../styles/fonts";
+@import "../../styles/breakpoints";
+
+.projectpage__container {
+  height: auto;
+  background-color: $bg-off;
+  border-bottom: 1px solid #cccccc;
+
+  .projectpage_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 70px 0px;
+    padding: 6rem;
+    justify-content: center;
+    align-items: center;
+
+    .projectpage_title_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .projectpage_title {
+        font-family: $Nunito;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        margin: 0;
+        color: $links;
+        @include landscape {
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+      .projectpage_header {
+        font-family: $SoraBold;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+        font-size: 40px;
+        line-height: 50px;
+        color: #333333;
+        @include tablet {
+          font-size: 24px;
+          line-height: 30px;
+        }
+        @include landscape {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+      .projectpage_desc {
+        font-family: $Nunito;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        width: 90%;
+        color: #666666;
+        @include tablet {
+          width: 100%;
+        }
+      }
+    }
+
+    .projectpage_content_wrapper {
+      display: flex;
+      flex-direction: row;
+      // justify-content: ;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .projectpage_showmore {
+      box-sizing: border-box;
+      width: 10rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 18px 32px;
+      gap: 8px;
+      border: 2px solid #ff8900;
+      border-radius: 35px;
+    }
+  }
+}

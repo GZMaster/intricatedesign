@@ -24,6 +24,9 @@ const Projects = () => {
         >
           <Link to="/Projects">
             <img src={Project1} alt="" />
+            <div className="Projects_text">
+              <p>Click to View more Projects</p>
+            </div>
           </Link>
         </div>
         <div

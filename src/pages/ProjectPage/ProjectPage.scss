@@ -14,6 +14,15 @@
     padding: 6rem;
     justify-content: center;
     align-items: center;
+    @include tablet {
+      padding: 4rem;
+    }
+    @include landscape {
+      padding: 4rem 2rem;
+    }
+    @include mobile {
+      padding: 2rem 1rem;
+    }
 
     .projectpage_title_wrapper {
       display: flex;
@@ -69,10 +78,32 @@
     .projectpage_content_wrapper {
       display: flex;
       flex-direction: row;
-      // justify-content: ;
       align-items: center;
       gap: 20px;
       flex-wrap: wrap;
+      @include tablet {
+        flex-direction: column;
+      }
+      @include landscape {
+        flex-direction: column;
+      }
+
+      > .projectpage_content {
+        width: auto;
+        > img {
+          width: auto;
+
+          @include tablet {
+            width: 100%;
+          }
+          @include landscape {
+            width: 100%;
+          }
+          @include mobile {
+            width: 100%;
+          }
+        }
+      }
     }
 
     .projectpage_showmore {
